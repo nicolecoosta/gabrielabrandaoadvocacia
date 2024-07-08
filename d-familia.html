@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriela Brandão</title>
+    <link rel="stylesheet" href="css/styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="./img/favicon.svg" type="image/x-icon">
+
+<style>
+    .whatsapp {
+     position: fixed;
+     bottom: 40px;
+     right: 40px;
+     z-index: 9999;
+   }
+   @media(max-width: 768px){
+        .whatsapp {
+      bottom: 20px;
+      right: 20px;
+    }
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="img/logo-header.png" alt="Logo">
+                </div>
+            </a>
+    
+            <nav class="desktop-menu">
+                <ul class="menu nav-list">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./d-familia.html">Direito de Família</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./d-trabalhista.html">Direito Trabalhista</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./sucessoes.html">Sucessões</a></li>
+                </ul>
+            </nav>
+    
+            <div class="mobile-menu-icon">
+                <button onClick="menuShow()"><img class="icon" src="./img/menu-hamburguer.png" alt="Menu"></button>
+            </div>
+    
+            <div class="mobile-menu">
+                <button class="close-icon" onClick="menuShow()"><img src="./img/close-menu-hamburguer.png" alt="Close"></button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./d-familia.html">Direito de Família</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./d-trabalhista.html">Direito Trabalhista</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./sucessoes.html">Sucessões</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="indroducao-familia">
+        <div class="container-familia">
+            <h2>Direito de Família</h2>
+        </div>
+    </div>
+
+    <div class="direitos-familia">
+        <div class="container-direitos">
+        <h2>Conheça seus direitos:</h2>
+        <div class="texto-direitos">
+            <h4>Divórcio </h4>
+            <p>Para quem deseja por fim ao relacionamento formalizado com casamento civil, podendo ocorrer de forma extrajudicial ou judicial, com ou sem partilha de bens. . 
+            </p>
+        </div>
+
+        <div class="texto-direitos">
+            <h4>União estável </h4>
+            <p>Para quem deseja iniciar ou formalizar sua união, com todos os cuidados legais necessários para cada caso.
+            </p>
+        </div>
+
+        <div class="texto-direitos">
+            <h4>Guarda de menores </h4>
+            <p>É forma de regularizar a situação de criança ou adolescente.
+            </p>
+        </div>
+
+        <div class="texto-direitos">
+            <h4>Direito de convivência  </h4>
+            <p>Ação importante para pleitear o direito a ter uma convivência frequente e tranquila especialmente com filhos ou netos, reforçando os laços familiares.. 
+            </p>
+        </div>
+
+        <div class="texto-direitos">
+            <h4>Alimentos </h4>
+            <p>Tema em que se pode discutir dentro da ação principal: o pedido de alimentos, suspensão dos alimentos, oferta de alimentos, entre outros.  
+            </p>
+        </div>
+
+        <div class="texto-direitos">
+            <h4>Modificação de cláusula de alimentos  </h4>
+            <p>Possui o objetivo de alterar as cláusulas de alimentos já estabelecidas judicialmente, quando ocorre mudança na situação financeira de quem paga ou recebe os alimentos.  
+            </p>
+        </div>
+
+        <div class="texto-direitos">
+            <h4>Exoneração de alimentos  </h4>
+            <p>Esse procedimento é necessário quando se entende que o dever de pagar pensão alimentícia terminou.
+            </p>
+        </div>
+
+        <div class="texto-direitos">
+            <h4>Regime de bens </h4>
+            <p>Orientação para quem deseja iniciar um relacionamento e conhecer as características dos regimes de bens existentes e eventualmente adotar um regime diverso do geral e também para quem deseja modificar um regime de união em um relacionemento já estabelecido.
+            </p>
+        </div>
+
+        <div class="texto-direitos">
+            <h4>Filiação sociafetiva </h4>
+            <p>Reconhecimento da maternidade e/ou paternidade com base no afeto. O procedimento pode ser realizado de forma extrajudicial ou judicial.
+            </p>
+        </div>
+
+        <div class="texto-direitos texto-direitos-last">
+            <h4>Reconhecimento de paternidade: </h4>
+            <p>Permite a identificação do pai da criança que é registrada somente com o nome da mãe. Pode ser feito inclusive quando o suposto pai falece .
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-faq">
+        <div class="faq">
+            <h2 class="faq-title">FAQ</h2>
+            <div class="faq-item">
+                <div class="faq-question question1 "><span>Pergunta 1:</span> Posso me divorciar, no extrajudicial, de forma online? </div>
+                <div class="faq-answer"><span>Resposta:</span>  Atualmente existe sim essa possibilidade, permitindo que as partes estejam em estados diferentes..</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><span>Pergunta 2: </span>  Sou obrigada a mandar fotos do meu filho, sempre que o pai pede?</div>
+                <div class="faq-answer"><span>Resposta: </span>  Não. O legítimo direito de convivência entre a criança e o pai não significa que a mãe está a serviço das vontades do pai. </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><span>Pergunta 3: </span>  Construímos uma casa no terreno de uma família da minha esposa, tenho direitos, com o divórcio? </div>
+                <div class="faq-answer"><span>Resposta:</span>  Sim. Mesmo tendo construído em terreno de famíliar, o bem entrará na partilha.</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="background">
+        <div class="overlay">
+            <div class="title">Precisando de Ajuda?</div>
+            <button class="button">Entre em contato</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer">
+            <div class="logo-section">
+                <img src="img/logo-footer.png" alt="Logo">
+            </div>
+            <div class="menu-section">
+                <h3 class="footer-section-title">Menu</h3>
+                <div class="menu-links">
+                    <p><a href="./index.html">Home</a></p>
+                    <p><a href="./d-familia.html">Direito de Família</a></p>
+                    <p><a href="./d-trabalhista.html">Direito Trabalhista</a></p>
+                    <p><a href="./sucessoes.html">Sucessões</a></p>
+                </div>
+            </div>
+            <div class="contato-section">
+                <h3 class="footer-section-title">Contato</h3>
+                <div class="redes-sociais">
+                    <a href="https://www.instagram.com/gabrielabrandao.advocacia/" target="_blank">
+                        <img src="img/instagram.png" alt="Instagram"> Instagram<br>
+                    </a>
+                    <a href="https://wa.me/55219997726092" target="_blank">
+                        <img src="img/whatsapp.png"> WhatsApp
+                    </a>
+                    <br>
+                    <a href="tel:+55219997726092" target="_blank">
+                        <img src="img/telefone.png"> (21) 999772-6092 
+                    </a>
+                    <br>
+                    <a href="mailto:adv.gabrielaoliv@gmail.com" target="_blank">
+                        <img src="img/email.png"> adv.gabrielaoliv@gmail.com <br>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <div class="whatsapp">
+        <a href="https://wa.me/5521997726092?text=Olá!%20:)%20Posso%20te%20ajudar?" target="_blank" rel="noopener noreferrer">
+         <img src="./img/btn-whatsapp.png" width="55" alt="Fale conosco pelo Whatsapp" title="Fale conosco pelo Whatsapp">
+       </a>
+    </div>
+    
+    <script src="./script.js"></script>
+    
+    
+</body>
+</html>

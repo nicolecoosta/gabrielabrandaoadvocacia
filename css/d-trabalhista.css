@@ -1,0 +1,192 @@
+.indroducao-trabalhista {
+    background-image: url("../img/direito-trabalhista.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    position: relative;
+    height: 50vh !important;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: #435B4E;
+}
+
+.indroducao-trabalhista .container-trabalhista {
+    max-width: 1200px; 
+    width: 100%; 
+    position: relative;
+    z-index: 1;
+}
+
+.indroducao-trabalhista h2 {
+    font-size: 32px;
+    color: inherit;
+    margin: 0; 
+    position: absolute;
+    right: calc(0% - 50px);
+}
+
+@media (max-width: 768px) {
+    .indroducao-trabalhista {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .indroducao-trabalhista .container-trabalhista {
+        text-align: center; 
+    }
+
+    .indroducao-trabalhista h2 {
+        position: absolute;
+        left: 50%;
+        width: 100px;
+        top: -100px;
+    }
+}
+
+
+
+/* DIREITOS */
+.container-direitos{
+    background-color: #f8eee7;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.container-direitos h2{
+    color: #435B4E;
+    text-align: center;
+}
+
+.texto-direitos h4{
+    color: #435B4E;
+    margin-top: 30px;
+    
+}
+
+.texto-direitos p {
+    margin-bottom: 30px;
+}
+
+.texto-direitos {
+    border-bottom: 2px solid #f5f5f5
+}
+.texto-direitos-last{
+    border-bottom: none;
+    margin-bottom: -40px;
+}
+
+@media (max-width: 768px) {
+    .container-direitos {
+        margin-top: 20px;
+    }
+    }
+
+/* FAQ */
+.container-faq {
+    margin-top: 60px;
+}
+.faq {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+h2.faq-title {
+    background-color: #f8eee7;
+    color: #435B4E;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #f5f5f5;
+    border-radius: 10px 10px 0 0;
+}
+.faq-question.question1 {
+    margin-top: -10px;
+    border-radius: 0 !important;
+}
+.faq-item {
+    margin: 10px 0;
+}
+
+.faq-question {
+    background-color: #f8eee7;
+    color: #435B4E;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 0 0 10px 10px;
+
+}
+.faq-question span,
+.faq-answer span {
+    color: #435B4E;
+    font-weight: 700;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+@media (max-width: 768px) {
+    .container-faq {
+        margin-top: 20px;
+    }
+    }
+
+/* CONTATO */
+.background {
+    position: relative;
+    height: 30vh !important;  
+    width: 100%;
+    background: url('../img/d.trabalhista-contato.png') no-repeat center center/cover;
+    margin-bottom: -40px;
+    margin-top: 60px;
+}
+
+.overlay {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    color: #435B4E;
+    height: 100%; 
+    padding-left: 20px; 
+    padding-top: 30px; 
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #435B4E;
+    color: #f8eee7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+@media(max-width: 768px){
+    .overlay {
+        align-items: start !important;
+        margin-top: -50px !important;
+    }
+    .title {
+        font-size: 16px !important;
+    }
+    .button {
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+    
+    }

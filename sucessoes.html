@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriela Brandão</title>
+    <link rel="stylesheet" href="css/styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="./img/favicon.svg" type="image/x-icon">
+
+<style>
+    .whatsapp {
+     position: fixed;
+     bottom: 40px;
+     right: 40px;
+     z-index: 9999;
+   }
+   @media(max-width: 768px){
+        .whatsapp {
+      bottom: 20px;
+      right: 20px;
+    }
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="img/logo-header.png" alt="Logo">
+                </div>
+            </a>
+    
+            <nav class="desktop-menu">
+                <ul class="menu nav-list">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./d-familia.html">Direito de Família</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./d-trabalhista.html">Direito Trabalhista</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./sucessoes.html">Sucessões</a></li>
+                </ul>
+            </nav>
+    
+            <div class="mobile-menu-icon">
+                <button onClick="menuShow()"><img class="icon" src="./img/menu-hamburguer.png" alt="Menu"></button>
+            </div>
+    
+            <div class="mobile-menu">
+                <button class="close-icon" onClick="menuShow()"><img src="./img/close-menu-hamburguer.png" alt="Close"></button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./d-familia.html">Direito de Família</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./d-trabalhista.html">Direito Trabalhista</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./sucessoes.html">Sucessões</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="indroducao-sucessoes">
+        <div class="container-sucessoes">
+            <h2>Sucessões</h2>
+        </div>
+    </div>
+
+    <div class="direitos-sucessoes">
+        <div class="container-direitos">
+        <h2>Conheça seus direitos:</h2>
+        <div class="texto-direitos">
+            <h4>Inventário  </h4>
+            <p>Podendo ocorrer de forma judicial ou extrajudicial,  é um instrumento para formalizar a divisão e a transferência de bens aos herdeiros. 
+            </p>
+        </div>
+
+        <div class="texto-direitos texto-direitos-last">
+            <h4>Planejamento sucessório </h4>
+            <p>É o conjunto de estratégias adotadas por alguém para que a transferência de seu patrimônio para seus herdeiros se dê da forma mais eficaz possível. Pode se dar de diversas formas, como através de testamento,  doação, holding familiar, previdência privada, entre outras.
+            </p>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="container-faq">
+        <div class="faq">
+            <h2 class="faq-title">FAQ</h2>
+            <div class="faq-item">
+                <div class="faq-question question1 "><span>Pergunta 1:</span> Qual o prazo para iniciar o inventário? </div>
+                <div class="faq-answer"><span>Resposta:</span>  O prazo é de 60 dias a partir da data do falecimento. Após esse prazo, pode incidir multa pelo atraso.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><span>Pergunta 2: </span>  É passível vender um imóvel em inventário? </div>
+                <div class="faq-answer"><span>Resposta: </span>  Sim, porém nesse caso é necessário requerer, de forma justificada, autorização judicial.  </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question"><span>Pergunta 3: </span>  Uma pessoa com mais de 70 anos pode fazer um testamento? </div>
+                <div class="faq-answer"><span>Resposta:</span>  Sim. Qualquer pessoa acima dos 16 anos, com capacidade intelectual plena, pode realizar seu testamento.</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="background">
+        <div class="overlay">
+            <div class="title">Precisando de Ajuda?</div>
+            <button class="button">Entre em contato</button>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container-footer">
+            <div class="logo-section">
+                <img src="img/logo-footer.png" alt="Logo">
+            </div>
+            <div class="menu-section">
+                <h3 class="footer-section-title">Menu</h3>
+                <div class="menu-links">
+                    <p><a href="./index.html">Home</a></p>
+                    <p><a href="./d-familia.html">Direito de Família</a></p>
+                    <p><a href="./d-trabalhista.html">Direito Trabalhista</a></p>
+                    <p><a href="./sucessoes.html">Sucessões</a></p>
+                </div>
+            </div>
+            <div class="contato-section">
+                <h3 class="footer-section-title">Contato</h3>
+                <div class="redes-sociais">
+                    <a href="https://www.instagram.com/gabrielabrandao.advocacia/" target="_blank">
+                        <img src="img/instagram.png" alt="Instagram"> Instagram<br>
+                    </a>
+                    <a href="https://wa.me/55219997726092" target="_blank">
+                        <img src="img/whatsapp.png"> WhatsApp
+                    </a>
+                    <br>
+                    <a href="tel:+55219997726092" target="_blank">
+                        <img src="img/telefone.png"> (21) 999772-6092 
+                    </a>
+                    <br>
+                    <a href="mailto:adv.gabrielaoliv@gmail.com" target="_blank">
+                        <img src="img/email.png"> adv.gabrielaoliv@gmail.com <br>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="whatsapp">
+        <a href="https://wa.me/5521997726092?text=Olá!%20:)%20Posso%20te%20ajudar?" target="_blank" rel="noopener noreferrer">
+         <img src="./img/btn-whatsapp.png" width="55" alt="Fale conosco pelo Whatsapp" title="Fale conosco pelo Whatsapp">
+       </a>
+    </div>
+    
+    <script src="./script.js"></script>
+    
+    
+</body>
+</html>
