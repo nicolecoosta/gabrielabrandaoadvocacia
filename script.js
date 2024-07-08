@@ -38,8 +38,3 @@ function menuShow() {
         menuMobile.classList.add('open');
     }
 }
-
-//entre em contato
-    document.getElementById("whatsappButton").addEventListener("click", function() {
-        window.location.href = "https://wa.me/55219997726092";
-    });
