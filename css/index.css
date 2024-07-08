@@ -266,6 +266,7 @@
     cursor: pointer;
     font-size: 1rem;
 }
+
 @media(max-width: 768px){
     .overlay {
         align-items: start !important;
@@ -278,4 +279,4 @@
         padding: 10px !important;
         font-size: 14px !important;
     }
-    }
+}
