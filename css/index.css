@@ -53,16 +53,20 @@
 
 @media (max-width: 768px) {
     .indroducao .container {
-        flex-direction: column; /* Empilha os elementos verticalmente em telas menores */
-        text-align: center; /* Centraliza o conteúdo */
+        flex-direction: column;
+        text-align: center; 
     }
 
     .indroducao .paragrafo {
-        margin-left: 0; /* Remove o margin-left em telas menores */
-        margin-bottom: 20px; /* Espaçamento entre o parágrafo e o botão */
+        margin-left: 0; 
+        margin-bottom: 20px; 
     }
     .indroducao .paragrafo h2 {
         margin-top: 80px;
+        color: #333;
+    }
+    .indroducao .paragrafo p {
+        color: #111;
     }
 }
 
