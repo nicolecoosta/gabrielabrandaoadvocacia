@@ -68,6 +68,10 @@
     .indroducao .paragrafo p {
         color: #111;
     }
+    .indroducao .botao-introducao {
+        color: #f8eee7;
+        background-color:#435B4E;
+    }
 }
 
 
