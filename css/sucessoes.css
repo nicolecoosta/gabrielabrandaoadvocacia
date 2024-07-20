@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
     .indroducao-sucessoes {
-        height: auto;
+        height: 55vh;
         padding: 40px 20px;
     }
 
@@ -38,7 +38,7 @@
 
     .indroducao-sucessoes h2 {
         position: absolute;
-        right: 5%;
+        right: 7%;
         white-space: nowrap;
         top: 120px;
     }
